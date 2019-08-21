@@ -42,9 +42,6 @@ for (cv=0; cv<8; cv++){
 }
 
 
-
-
-	
   /* printf("Hello world!\n");
       printf("Hello phworld!\n");
        printf("Hello world!\n");
