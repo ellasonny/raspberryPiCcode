@@ -14,7 +14,8 @@ int main(void)
 {
 	
 	int cv;
-for (cv=1; cv<9; cv++){
+for (cv=2; cv<12; cv=cv+3
+){
 	   printf("Hello PDB world!   %d \n",cv);
 }
 
@@ -25,6 +26,7 @@ for (cv=1; cv<9; cv++){
       */ 
    return 0;
 }
+
 
 
 
