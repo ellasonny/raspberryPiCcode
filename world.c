@@ -9,22 +9,38 @@ Copyright (c) 2012, Broadcom Europe Ltd
 
 #include <stdio.h>
 
+void forList(void) {
+// body of my function 
+      printf("Hello phworld  25 !\n");
+      int cvl;
+      for (cvl=1; cvl<10; cvl=cvl+3)
+      { 
+		  printf("   %d ",cvl);
+	 }
+	  printf("\n");
+	  printf("\n");
+}
+
+
 
 int main(void)
 {
 	
 	int cv;
-for (cv=2; cv<12; cv=cv+3
-){
+	
+	forList();
+		forList();	forList();
+	
+for (cv=90; cv<=150; cv=cv+15)
 	   printf("Hello PDB world!   %d \n",cv);
-}
+
 
   /* printf("Hello world!\n");
       printf("Hello phworld!\n");
        printf("Hello world!\n");
       printf("Hello phworld!\n");
       */ 
-   return 0;
+   return 3;
 }
 
 
